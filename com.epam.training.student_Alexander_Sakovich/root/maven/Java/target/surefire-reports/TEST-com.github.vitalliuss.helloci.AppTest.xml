@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.047" tests="5" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.033" tests="5" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\test-classes;D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\classes;C:\Users\Zerraeh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Zerraeh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\test-classes;D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\classes;C:\Users\Zerraeh\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Zerraeh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Zerraeh\AppData\Local\Temp\surefire5017123203813757870\surefirebooter14770845310060926778.jar C:\Users\Zerraeh\AppData\Local\Temp\surefire5017123203813757870 2023-10-22T09-39-19_852-jvmRun1 surefire5627089243593768353tmp surefire_02311943261336525437tmp"/>
+    <property name="sun.java.command" value="C:\Users\Zerraeh\AppData\Local\Temp\surefire12977657420715564450\surefirebooter9204058842682425999.jar C:\Users\Zerraeh\AppData\Local\Temp\surefire12977657420715564450 2023-10-22T09-41-18_999-jvmRun1 surefire11590983622375699364tmp surefire_08555088770398527741tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\test-classes;D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\classes;C:\Users\Zerraeh\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Zerraeh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\test-classes;D:\_work\practice\ТПО\ta_training-java\ta_training-java\com.epam.training.student_Alexander_Sakovich\root\maven\Java\target\classes;C:\Users\Zerraeh\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Zerraeh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Zerraeh"/>
     <property name="user.language" value="ru"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Zerraeh\AppData\Local\Temp\surefire5017123203813757870\surefirebooter14770845310060926778.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Zerraeh\AppData\Local\Temp\surefire12977657420715564450\surefirebooter9204058842682425999.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21+35-LTS-2513"/>
@@ -58,14 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.011">
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.008">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
 </failure>
   </testcase>
   <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
   <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
+  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
   <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
     <skipped message="Not implemented yet"/>
   </testcase>
